@@ -7,7 +7,8 @@
     "format": "prettier --list-different --single-quote --print-width=80 \"js/**/*.{js,jsx}\"",
     "lint": "./node_modules/.bin/eslint **/*.{js,jsx} --quiet",
     "test": "jest",
-    "test-update": "jest -u"
+    "test-update": "jest -u",
+    "test-coverage": "jest --coverage"
   },
   "jest": {
     "snapshotSerializers": ["jest-serializer-enzyme"]
