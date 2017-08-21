@@ -10,10 +10,10 @@ app.use(cors());
 const ratedShows = showsObj.shows.map(show =>
   Object.assign(
     {
-      rating: `${Math.floor(Math.random() * 9)}.${Math.floor(Math.random() * 9)}`
+      rating: `${Math.floor(Math.random() * 9)}.${Math.floor(Math.random() * 9)}`,
     },
-    show
-  )
+    show,
+  ),
 );
 
 app.get('/:id', (req, res) => {

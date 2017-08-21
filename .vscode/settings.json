@@ -3,5 +3,10 @@
   "prettier.tabWidth": 2,
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "javascript.validate.enable": false,
+  "flow.useNPMPackagedFlow": true,
+  "javascript.format.enable": false,
+  "prettier.eslintIntegration": true,
+  "flow.runOnAllFiles": false
 }
