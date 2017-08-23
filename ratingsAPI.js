@@ -12,8 +12,8 @@ const ratedShows = showsObj.shows.map(show =>
     {
       rating: `${Math.floor(Math.random() * 9)}.${Math.floor(Math.random() * 9)}`,
     },
-    show,
-  ),
+    show
+  )
 );
 
 app.get('/:id', (req, res) => {
