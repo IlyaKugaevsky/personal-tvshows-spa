@@ -12,7 +12,6 @@ import preload from '../data.json';
 
 const FourOhFour = () => <h1>404</h1>;
 
-// render Landing if path matches exactly
 const App = () => (
   <BrowserRouter>
     <Provider store={store}>
