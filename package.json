@@ -8,7 +8,9 @@
     "lint": "./node_modules/.bin/eslint **/*.{js,jsx} --quiet",
     "test": "jest",
     "test-update": "jest -u",
-    "test-coverage": "jest --coverage"
+    "test-coverage": "jest --coverage",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d public"
   },
   "jest": {
     "snapshotSerializers": [
@@ -23,6 +25,7 @@
     "compression": "1.6.2",
     "cors": "2.8.3",
     "express": "4.15.3",
+    "gh-pages": "^2.2.0",
     "lodash": "4.17.4",
     "preact": "8.1.0",
     "preact-compat": "3.16.0",
@@ -72,11 +75,7 @@
     "react-test-renderer": "15.5.4",
     "webpack-dev-server": "2.4.5"
   },
-  "name": "complete-intro-to-react",
-  "version": "3.0.0",
-  "description": "A Complete Intro to React workshop",
+  "name": "tvshows",
   "main": "server.js",
-  "repository": "git@github.com:btholt/complete-intro-to-react.git",
-  "author": "Brian Holt <btholt@gmail.com>",
-  "license": "MIT"
+  "homepage": "https://ilyakugaevsky.github.io/personal-tvshows-spa/"
 }

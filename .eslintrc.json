@@ -5,7 +5,10 @@
     "prettier",
     "prettier/react"
   ],
-  "plugins": ["flowtype", "prettier"],
+  "plugins": [
+    "flowtype",
+    "prettier"
+  ],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersions": 2016,
@@ -24,5 +27,9 @@
     "flowtype": {
       "onlyFilesWithFlowAnnotation": true
     }
-  }
+  },
+  "linebreak-style": [
+    2,
+    "windows"
+  ]
 }
